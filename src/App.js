@@ -1,23 +1,20 @@
-import logo from './logo.svg';
 import './App.css';
 
 function App() {
+  console.log('using GUI');
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div className="zaglu__block-content">
+        <div className="zaglu__logo-wrp">
+          Loren Holdings
+        </div>
+        <div className="zaglu__text">
+          THE REAL ESTATE COMPANY
+        </div>
+        <div className="text-soon">
+          Evan Weber: weberev@gmail.com
+        </div>
+      </div>
     </div>
   );
 }
