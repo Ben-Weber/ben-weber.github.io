@@ -1,7 +1,7 @@
 import './App.css';
 
 function App() {
-  console.log('latest commit 9:45am Wed');
+  console.log("Your process.env.PUBLIC_URL", process.env.PUBLIC_URL);
   return (
     <div className="App">
       <div className="zaglu__block-content">
